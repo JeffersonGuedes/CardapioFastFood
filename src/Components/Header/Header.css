@@ -1,0 +1,49 @@
+header {
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+    position: relative;
+    z-index: 1;
+    background-color: var(--cor-primaria);
+}
+
+nav {
+    background-color: var(--cor-primaria);
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+nav a img {
+    width: 17rem;
+    height: auto;
+}
+
+.navs {
+    width: 100%;
+    height: 14.33vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.nav-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-header .icon-carrinho {
+    width: 3rem;
+    height: auto;
+    margin-left: 4rem;
+}
+
+.link-carrinho-nav:hover {
+    transform: scale(1.2);
+}

@@ -1,0 +1,62 @@
+.card {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 25rem;
+    height: 32rem !important;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-image {
+    width: auto;
+    height: 20rem !important;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.card-title {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-description {
+    font-size: 14px;
+    color: #555;
+    margin: 10px 0;
+}
+
+.card-price {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
+
+.btn-adicionar {
+    width: 70%;
+    height: 3rem;
+    border-radius: 0.5rem;
+    background-color: var(--warning);
+    color: var(--white);
+    font-size: 1.5rem;
+    margin: auto;
+    font-family: var(--font_primaria);
+    font-weight: var(--font_weight_bold) !important;
+    line-height: 1.375rem;
+    letter-spacing: 0.25px;
+    transition: 0.3s ease;
+    text-decoration: none;
+    border: none;
+}
+
+.btn-adicionar:hover{
+    background-color: var(--cor-segundaria);
+}
